@@ -20,7 +20,7 @@ sudo apt autoremove
 sudo apt upgrade
 
 # Link libraries to standard locations
-sudo mkdir -p /usr/local/cuda-10.0/nccl/lib
+sudo mkdir -p /usr/local/cuda-10.1/nccl/lib
 sudo ln -s /usr/lib/x86_64-linux-gnu/libnccl.so.2 /usr/local/cuda/nccl/lib/
 sudo ln -s /usr/lib/x86_64-linux-gnu/libcudnn.so.7 /usr/local/cuda-10.1/lib64/
 
