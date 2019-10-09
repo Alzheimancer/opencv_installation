@@ -1,0 +1,12 @@
+numpy
+redis
+imutils
+eventlet
+Pillow
+requests
+progressbar2
+h5py
+python-socketio
+scipy
+scikit-image
+scikit-learn
